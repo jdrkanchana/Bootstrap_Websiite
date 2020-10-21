@@ -1,0 +1,49 @@
+/*nav bar styling */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li{
+	float: left;
+	list-style: none;
+	
+}
+li a {
+  display: block;
+  /*apply color white to nav bar elements in the list */
+  color: black;
+  margin-top : 10px;
+  margin-bottom : 10px;
+  /*to add padding between the list elements*/
+  padding: 12px;
+  /*the color of nav bar of text*/
+  background-color: white;
+
+}
+.serif {
+  font-family: "Times New Roman", Times, serif;
+  font-size:1.5em;
+
+  text-decoration: none;
+}
+/* apply text decoration to remove the underline from the links */
+/* menu-link hover over the nav bar the anchor tags leading to other pages color change of the navbar elements*/
+I could have used a:hover but the icon is also in the anchor tag I don't want to hover over the icon
+Hence exclusing the icon other anchor tags have hover
+.menu-link{
+  background-color: #111;
+  text-decoration: none;
+} 
+
+
+/*add a left margin padding to the first a href link element,cant'add to li a ,margin-left property otherwise between all list elements a left padding comes*/
+.left{
+	margin-left: 30px;
+	/* To align text to the right*/
+	margin-right: 600px;
+}
+

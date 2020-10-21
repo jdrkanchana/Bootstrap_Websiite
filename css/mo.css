@@ -1,0 +1,98 @@
+
+
+/*nav bar styling */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*color of nav bar surrounding elements*/
+  /*To this pic look nicer without menu color*/
+  background-color: none;
+}
+
+li{
+	float: left;
+	list-style: none;
+	
+}
+li a {
+  display: block;
+  /*apply text color in nav bar */
+  color: white;
+  margin-top : 20px;
+  margin-bottom : 10px;
+  /*to add padding between the list elements*/
+  padding: 12px;
+  /*the color of nav bar of text*/
+  background-color: none;
+
+}
+/*hover over thetext in nav bar the color*/
+li a:hover {
+  color: #FFCCFF;
+}
+.serif {
+  font-family: "Times New Roman", Times, serif;
+  font-size:1.5em;
+
+  text-decoration: none;
+}
+/* apply text decoration to remove the underline from the links */
+/* menu-link hover over the nav bar the anchor tags leading to other pages color change of the navbar elements*/
+/*I could have used a:hover but the icon is also in the anchor tag I don't want to hover over the icon
+Hence exclusing the icon other anchor tags have hover*/
+.menu-link{
+  text-decoration: none;
+  color: red;
+} 
+
+
+/*add a left margin padding to the first a href link element,cant'add to li a ,margin-left property otherwise between all list elements a left padding comes*/
+.left{
+	margin-left: 30px;
+	/* To align text to the right*/
+	margin-right: 600px;
+  margin-top : 20px;
+}
+/*end of nav bar styling*/
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*text in middle of background image*/
+  color:  #D8BFD8;
+  font-family: "Times New Roman", Times, serif;
+  font-size:7.5em;
+}
+
+body {
+ background-image: url("paper.gif");
+ background-color: #cccccc;
+}
+
+.my-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /*footer color*/
+  /*can add a color for this image no footer color looks nicer*/
+  background-color: none;
+  /*footer text color*/
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size:1.5em;
+  padding: 20px;
+}
+
+ .footer-image {
+  border-radius: 50%;
+  position: right;
+  size:30;
+}
+.footer-para{
+  margin-right: 20px;
+}
